@@ -17,9 +17,9 @@
 const titles = {
   // General Service
   general_service: "常规服务",
-  general_service_desc: "通过从SkyWalking代理收集的遥测数据来观察服务和相对直接的依赖关系。",
+  general_service_desc: "通过从NuAura代理收集的遥测数据来观察服务和相对直接的依赖关系。",
   general_service_services: "服务",
-  general_service_services_desc: "通过SkyWalking Agent收集的遥测数据观察服务。",
+  general_service_services_desc: "通过NuAura Agent收集的遥测数据观察服务。",
   general_service_virtual_database: "虚拟数据库",
   general_service_virtual_database_desc: "观察语言代理通过各种插件推测的虚拟数据库。",
   general_service_virtual_cache: "虚拟缓存",
@@ -67,7 +67,7 @@ const titles = {
   aws_cloud_api_gateway_desc: "通过AWS FireHose Receiver提供AWS Cloud API网关监控。",
   // Browser
   browser: "Browser",
-  browser_desc: "通过Apache SkyWalking Client JS提供Web应用程序、版本和页面的浏览器端监控。",
+  browser_desc: "通过NuAura Observability Client JS提供Web应用程序、版本和页面的浏览器端监控。",
   // Gateway
   gateway: "网关",
   gateway_desc: "API网关是位于客户端和后端服务集合之间的API管理工具。",
@@ -105,14 +105,14 @@ const titles = {
   mq_rocketmq_desc: "通过OpenTelemetry的Prometheus接收器提供RocketMQ监控。",
   // self observability
   self_observability: "自监控",
-  self_observability_desc: "自观察性为运行SkyWalking生态系统中的组件和服务器提供了可观察性。",
-  self_observability_oap: "SkyWalking服务",
+  self_observability_desc: "自观察性为运行NuAura生态系统中的组件和服务器提供了可观察性。",
+  self_observability_oap: "NuAura服务",
   self_observability_oap_desc: "OAP后端集群本身是一个分布式流处理系统，这是对OAP后端本身的监控。",
   self_observability_satellite: "Satellite",
   self_observability_satellite_desc:
     "Satellite：为云原生基础设施设计的开源代理，提供了一种低成本、高效、更安全的遥测数据收集方式。它是遥测采集的推荐负载均衡器。",
-  self_observability_java_agent: "SkyWalking Java Agent",
-  self_observability_java_agent_desc: "SkyWalking Java Agent 自监控提供了对 agent 插件的性能追踪和错误统计。",
+  self_observability_java_agent: "NuAura Java Agent",
+  self_observability_java_agent_desc: "NuAura Java Agent 自监控提供了对 agent 插件的性能追踪和错误统计。",
   cilium: "Cilium",
   cilium_desc: "Cilium是Kubernetes上的CNI插件，提供基于eBPF的网络、安全和负载均衡。",
   cilium_service: "Cilium服务",

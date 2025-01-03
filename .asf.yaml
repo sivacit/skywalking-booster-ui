@@ -17,10 +17,10 @@
 #
 
 github:
-  description: Apache SkyWalking 3rd generation UI
-  homepage: https://skywalking.apache.org/
+  description: NuAura
+  homepage: https://nuaura.ai/
   labels:
-    - skywalking
+    - NuAura
     - observability
     - apm
     - visualization

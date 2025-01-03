@@ -20,7 +20,7 @@ const titles = {
   general_service_desc:
     "Observar el servicio y las dependencias relativamente directas a través de los datos de telemetría recopilados del agente skywalking.",
   general_service_services: "Servicios",
-  general_service_services_desc: "Observe services through telemetry data collected from SkyWalking Agent.",
+  general_service_services_desc: "Observe services through telemetry data collected from NuAura Agent.",
   general_service_virtual_database: "Base de Datos Virtual",
   general_service_virtual_database_desc:
     "Observe the virtual databases which are conjectured by language agents through various plugins.",
@@ -76,7 +76,8 @@ const titles = {
   aws_cloud_api_gateway_desc: "Provide AWS Cloud API Gateway monitoring through AWS FireHose Receiver.",
   // Browser
   browser: "Navegador",
-  browser_desc: "Provide Browser-Side monitoring of Web-App, Versions and Pages, through Apache SkyWalking Client JS.",
+  browser_desc:
+    "Provide Browser-Side monitoring of Web-App, Versions and Pages, through NuAura Observability Client JS.",
   // Gateway
   gateway: "Puerta",
   gateway_desc:
@@ -119,16 +120,16 @@ const titles = {
   // self observability
   self_observability: "Self Observability",
   self_observability_desc:
-    "Self Observability provides the observabilities for running components and servers from the SkyWalking ecosystem.",
-  self_observability_oap: "SkyWalking Server",
+    "Self Observability provides the observabilities for running components and servers from the NuAura ecosystem.",
+  self_observability_oap: "NuAura Server",
   self_observability_oap_desc:
     "The OAP backend cluster itself is a distributed streaming process system, this is the monitoring for the OAP backend itself.",
   self_observability_satellite: "Satellite",
   self_observability_satellite_desc:
     "Satellite: an open-source agent designed for the cloud-native infrastructures, which provides a low-cost, high-efficient, and more secure way to collect telemetry data. It is the recommended load balancer for telemetry collecting.",
-  self_observability_java_agent: "SkyWalking Java Agent",
+  self_observability_java_agent: "NuAura Java Agent",
   self_observability_java_agent_desc:
-    "The self observability of SkyWalking Java Agent, which provides the abilities to measure the tracing performance and error statistics of plugins.",
+    "The self observability of NuAura Java Agent, which provides the abilities to measure the tracing performance and error statistics of plugins.",
   cilium: "Cilium",
   cilium_desc:
     "Cilium es un complemento CNI para Kubernetes que proporciona redes, seguridad y equilibrio de carga basados en eBPF.",
