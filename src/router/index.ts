@@ -24,7 +24,7 @@ import { routesSettings } from "./settings";
 import { routesNotFound } from "./notFound";
 
 const routes: RouteRecordRaw[] = [
-  ...routesMarketplace,
+  // ...routesMarketplace,
   ...routesLayers,
   ...routesAlarm,
   ...routesDashboard,

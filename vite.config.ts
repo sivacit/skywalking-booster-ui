@@ -72,7 +72,7 @@ export default ({ mode }: ConfigEnv): UserConfig => {
       port: 3000,
       proxy: {
         "/graphql": {
-          target: `${VITE_SW_PROXY_TARGET || "http://localhost:12800"}`,
+          target: `${VITE_SW_PROXY_TARGET || "http://localhost:8080"}`,
           changeOrigin: true,
         },
       },

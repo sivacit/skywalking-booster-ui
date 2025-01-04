@@ -67,7 +67,7 @@ const titles = {
   aws_cloud_api_gateway_desc: "通过AWS FireHose Receiver提供AWS Cloud API网关监控。",
   // Browser
   browser: "Browser",
-  browser_desc: "通过NuAura Observability Client JS提供Web应用程序、版本和页面的浏览器端监控。",
+  browser_desc: "NuAura Observability Client JS提供Web应用程序、版本和页面的浏览器端监控。",
   // Gateway
   gateway: "网关",
   gateway_desc: "API网关是位于客户端和后端服务集合之间的API管理工具。",

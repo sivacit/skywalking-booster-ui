@@ -8,6 +8,14 @@
 
 This UI starts from Observability UI core.
 
+
+```
+docker buildx build --platform linux/amd64,linux/arm64 -t sivacit/nuaura-observability-ui:latest --push .
+```
+
+```
+docker run --name ui -d -p 8080:80 -d sivacit/nuaura-observability-ui:latest 
+```
 ## Release
 
 This repo wouldn't release separately. All source codes have been included in the main repo release. The tags match the [main repo](https://github.com/apache/skywalking) tags.
